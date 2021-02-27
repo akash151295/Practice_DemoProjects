@@ -57,7 +57,12 @@
 			<artifactId>selenium-ie-driver</artifactId>
 			<version>4.0.0-beta-1</version>
 		</dependency>
-
+		<!-- https://mvnrepository.com/artifact/com.github.mkolisnyk/cucumber-report-generator -->
+		<dependency>
+			<groupId>com.github.mkolisnyk</groupId>
+			<artifactId>cucumber-report-generator</artifactId>
+			<version>1.3.5</version>
+		</dependency>
 	</dependencies>
 
 </project>
