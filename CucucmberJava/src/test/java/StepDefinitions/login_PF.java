@@ -21,8 +21,6 @@ public class login_PF {
 	WebDriver driver = null;
 	loginpage_PF login;
 	
-	
-	
 	@Given("User is at login page")
 	public void user_is_at_login_page() {
 		WebDriverManager.chromedriver().setup();
@@ -48,11 +46,11 @@ public class login_PF {
 	@Then("User should navigates to login page")
 	public void user_should_navigates_to_login_page() throws InterruptedException {
 		login.validate_Valid_Response();
-		//login.browser_Close();
+		login.browser_Close();
 	}
 	@Then("User should not navigates to login page")
 	public void user_should_not_navigates_to_login_page() throws InterruptedException {
 		login.validate_Invalid_Response();
-		//login.browser_Close();
+		login.browser_Close();
 	}
 }
