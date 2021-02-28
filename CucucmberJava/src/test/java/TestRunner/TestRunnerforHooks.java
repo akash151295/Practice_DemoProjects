@@ -10,8 +10,8 @@ import io.cucumber.junit.CucumberOptions;
 monochrome=true,
 plugin = {"pretty","junit:target/Reports/junit.xml",
 		"json:target/Reports/jsonreport.json",
-		"html:target/Reports/index.html"},
-		tags="@NegativeTestCases"
+		"html:target/Reports/index.html"}
+		//tags="@NegativeTestCases"
 		)
      
 public class TestRunnerforHooks {
